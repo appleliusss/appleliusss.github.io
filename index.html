@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic Duck - Innovative Puzzle Elimination Game</title>
+    <style>
+        :root {
+            --primary-color: #ffce00;
+            --accent-color: #ff4757;
+            --bg-dark: #1a1a1a;
+            --text-light: #ffffff;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-dark);
+            color: var(--text-light);
+            margin: 0;
+            line-height: 1.6;
+        }
+
+        /* Navigation */
+        nav {
+            padding: 20px 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: rgba(0,0,0,0.8);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: var(--primary-color);
+        }
+
+        /* Hero Section */
+        .hero {
+            padding: 80px 5%;
+            text-align: center;
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1611996575749-79a3a250f948?auto=format&fit=crop&q=80&w=1200') center/cover;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            color: var(--primary-color);
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 800px;
+            margin: 0 auto 30px;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: var(--primary-color);
+            color: #000;
+            padding: 15px 40px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: transform 0.3s;
+        }
+
+        .btn:hover {
+            transform: scale(1.05);
+            background-color: #f1c40f;
+        }
+
+        /* Features Section */
+        .features {
+            padding: 60px 5%;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+        }
+
+        .feature-card {
+            background: #2d2d2d;
+            padding: 30px;
+            border-radius: 15px;
+            border-bottom: 4px solid var(--primary-color);
+        }
+
+        .feature-card h3 {
+            color: var(--primary-color);
+            margin-top: 0;
+        }
+
+        /* How to Play */
+        .how-to-play {
+            background: #252525;
+            padding: 60px 5%;
+            text-align: center;
+        }
+
+        .step-list {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 40px;
+        }
+
+        .step {
+            flex: 1;
+            min-width: 200px;
+            margin: 20px;
+        }
+
+        .step-num {
+            font-size: 40px;
+            font-weight: bold;
+            color: var(--accent-color);
+            display: block;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px;
+            font-size: 0.9rem;
+            color: #888;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="logo">Magic Duck</div>
+    </nav>
+
+    <section class="hero">
+        <h1>Breakthrough Classic Puzzle Elimination</h1>
+        <p>When "match-2" mechanics meet "match-3" skills, a magical duck adventure begins! With a rich skill system and a brisk rhythm, it brings you an unprecedented visual and auditory experience.</p>
+        <a href="https://apps.apple.com/us/app/magic-duck-%E9%AD%94%E5%B9%BB%E9%B8%AD/id658917370" class="btn" target="_blank">Download on the App Store Now</a>
+    </section>
+
+    <section class="features">
+        <div class="feature-card">
+            <h3>🎮 Innovative Gameplay</h3>
+            <p>For the first time, the ease of match-2 is combined with the strategy of match-3 skills, lowering the entry barrier while significantly increasing the depth and excitement of the game.</p>
+        </div>
+        <div class="feature-card">
+            <h3>✨ Powerful Skills</h3>
+            <p>Featuring 5 magic skills: Bomb, Color Change, Drop, Double, and Bonus Points. Strategically upgrading and using them is the key to topping the global leaderboards!</p>
+        </div>
+        <div class="feature-card">
+            <h3>🌟 Exquisite Graphics</h3>
+            <p>Vibrant character designs paired with cheerful background music make every elimination a pure enjoyment.</p>
+        </div>
+    </section>
+
+    <section class="how-to-play">
+        <h2>How to Play</h2>
+        <div class="step-list">
+            <div class="step">
+                <span class="step-num">01</span>
+                <p>Tap two or more ducks of the same color to eliminate them; control the entire game with a single finger.</p>
+            </div>
+            <div class="step">
+                <span class="step-num">02</span>
+                <p>There is no time limit, but every level has target scores and special tasks to complete.</p>
+            </div>
+            <div class="step">
+                <span class="step-num">03</span>
+                <p>The more same-colored ducks you eliminate at once, the higher your score. Use magic props to solve tough puzzles!</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 IBG Studio. All rights reserved.</p>
+        <p>Compatible with iOS 5.1.1 and above | Developer: Ya Pan</p>
+    </footer>
+
+</body>
+</html>
