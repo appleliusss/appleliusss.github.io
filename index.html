@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic Duck 魔幻鸭 - 创新益智消除游戏</title>
+    <style>
+        :root {
+            --primary-color: #ffce00;
+            --accent-color: #ff4757;
+            --bg-dark: #1a1a1a;
+            --text-light: #ffffff;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-dark);
+            color: var(--text-light);
+            margin: 0;
+            line-height: 1.6;
+        }
+
+        /* 导航栏 */
+        nav {
+            padding: 20px 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: rgba(0,0,0,0.8);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: var(--primary-color);
+        }
+
+        /* 主视觉区 */
+        .hero {
+            padding: 80px 5%;
+            text-align: center;
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1611996575749-79a3a250f948?auto=format&fit=crop&q=80&w=1200') center/cover;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            color: var(--primary-color);
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 800px;
+            margin: 0 auto 30px;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: var(--primary-color);
+            color: #000;
+            padding: 15px 40px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: transform 0.3s;
+        }
+
+        .btn:hover {
+            transform: scale(1.05);
+            background-color: #f1c40f;
+        }
+
+        /* 特色板块 */
+        .features {
+            padding: 60px 5%;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+        }
+
+        .feature-card {
+            background: #2d2d2d;
+            padding: 30px;
+            border-radius: 15px;
+            border-bottom: 4px solid var(--primary-color);
+        }
+
+        .feature-card h3 {
+            color: var(--primary-color);
+            margin-top: 0;
+        }
+
+        /* 玩法介绍 */
+        .how-to-play {
+            background: #252525;
+            padding: 60px 5%;
+            text-align: center;
+        }
+
+        .step-list {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 40px;
+        }
+
+        .step {
+            flex: 1;
+            min-width: 200px;
+            margin: 20px;
+        }
+
+        .step-num {
+            font-size: 40px;
+            font-weight: bold;
+            color: var(--accent-color);
+            display: block;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px;
+            font-size: 0.9rem;
+            color: #888;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="logo">Magic Duck 魔幻鸭</div>
+    </nav>
+
+    <section class="hero">
+        <h1>突破经典的益智消除</h1>
+        <p>当二消玩法遇上三消技能，一场充满魔幻色彩的鸭鸭冒险就此展开！丰富的技能系统与爽快的节奏，带给你前所未有的视听双重快感。</p>
+        <a href="https://apps.apple.com/us/app/magic-duck-%E9%AD%94%E5%B9%BB%E9%B8%AD/id658917370" class="btn" target="_blank">立即前往 App Store 下载</a>
+    </section>
+
+    <section class="features">
+        <div class="feature-card">
+            <h3>🎮 创新玩法</h3>
+            <p>首次将二消的易上手与三消的策略技能结合，降低门槛的同时极大地增加了游戏的深度与爽快感。</p>
+        </div>
+        <div class="feature-card">
+            <h3>✨ 强力技能</h3>
+            <p>拥有炸弹、变色、掉落、双倍和附加分等 5 种魔法技能。合理升级和运用它们是登顶全球榜单的关键！</p>
+        </div>
+        <div class="feature-card">
+            <h3>🌟 精美画面</h3>
+            <p>色彩鲜艳的角色设计，配合欢快的背景音乐，让每一次消除都变成一种享受。</p>
+        </div>
+    </section>
+
+    <section class="how-to-play">
+        <h2>游戏玩法</h2>
+        <div class="step-list">
+            <div class="step">
+                <span class="step-num">01</span>
+                <p>点击两个或以上同色鸭鸭即可消除，单指即可掌控全局。</p>
+            </div>
+            <div class="step">
+                <span class="step-num">02</span>
+                <p>没有时间限制，但每一关都有目标分数和特殊任务需要完成。</p>
+            </div>
+            <div class="step">
+                <span class="step-num">03</span>
+                <p>消除的同色鸭鸭越多，得分越高。运用魔法道具化解难题！</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 IBG Studio. All rights reserved.</p>
+        <p>适配 iOS 5.1.1 及以上版本 | 开发者：娅潘</p>
+    </footer>
+
+</body>
+</html>
