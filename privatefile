@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy Policy for Magic Duck Unlimited, effective November 5, 2026.">
+  <title>Privacy Policy | Magic Duck Unlimited</title>
+  <style>
+    :root { color-scheme: light; --ink:#253047; --muted:#64748b; --accent:#e5a500; --line:#e9edf3; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:#f8fafc; color:var(--ink); font:16px/1.75 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif; }
+    main { max-width:850px; margin:48px auto; padding:48px 56px; background:white; border:1px solid var(--line); border-radius:18px; box-shadow:0 8px 32px rgba(24,39,75,.04); }
+    h1 { font-size:clamp(27px,4vw,36px); line-height:1.2; margin:0 0 22px; letter-spacing:-.5px; }
+    h2 { font-size:20px; line-height:1.4; margin:32px 0 10px; }
+    p { margin:10px 0 14px; } ul { padding-left:25px; margin:10px 0 16px; }
+    li { margin:5px 0; } a { color:#946500; overflow-wrap:anywhere; }
+    .meta { padding:17px 20px; border-left:4px solid var(--accent); background:#fffbeb; border-radius:0 9px 9px 0; margin-bottom:26px; }
+    .meta p { margin:3px 0; } footer { border-top:1px solid var(--line); margin-top:36px; padding-top:18px; color:var(--muted); font-size:14px; }
+    @media (max-width:650px) { main { margin:0; padding:30px 22px; border:0; border-radius:0; } h2 { font-size:19px; } }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Privacy Policy for Magic Duck Unlimited</h1>
+  <div class="meta">
+    <p><strong>Effective Date:</strong> November 5, 2026</p>
+    <p><strong>Developer:</strong> Pan Ya</p>
+    <p><strong>Contact Email:</strong> <a href="mailto:mohuanya@163.com">mohuanya@163.com</a></p>
+  </div>
+  <p>Thank you for using Magic Duck Unlimited. We respect your privacy. This Privacy Policy explains how we handle information in connection with the Game.</p>
+  <section><h2>1. Information We Collect</h2>
+    <p>The Game does not require you to create an account and does not collect your name, email address, phone number, precise location, contacts, photos, or other personally identifiable information.</p>
+    <p>The Game may store the following game data locally on your device to provide gameplay features:</p>
+    <ul><li>Game progress, coin balance, and duck skill upgrade status;</li><li>Game settings and preferences;</li><li>Local notification states such as red-dot prompts.</li></ul>
+    <p>This data is stored only on your device. We do not upload it to our servers.</p>
+  </section>
+  <section><h2>2. In-App Purchases and Payments</h2>
+    <p>The Game may offer in-app purchases through the Apple App Store. All payment transactions are processed by Apple. We do not receive, store, or access your full payment card or billing information. Apple’s handling of payment information is governed by <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener noreferrer">Apple’s Privacy Policy</a>.</p>
+  </section>
+  <section><h2>3. Third-Party Services</h2>
+    <p>The Game does not include advertising SDKs, does not use third-party analytics SDKs, and does not use third-party login services. If such services are introduced in the future, we will update this Policy and disclose them in the App Store privacy labels.</p>
+  </section>
+  <section><h2>4. Data Sharing and Sale</h2>
+    <p>We do not sell, rent, or share your personally identifiable information with third parties.</p>
+  </section>
+  <section><h2>5. Children’s Privacy</h2>
+    <p>The Game does not knowingly collect personal information from children. If you are a parent or guardian and believe your child has provided personal information to us, please contact us at the email above, and we will take reasonable steps to address it.</p>
+  </section>
+  <section><h2>6. Data Security and Retention</h2>
+    <p>Because the Game does not upload personal data to our servers, game data remains on your device until you delete the Game or clear your device data. Please keep your device and Apple ID account secure.</p>
+  </section>
+  <section><h2>7. Your Rights</h2>
+    <p>Because we do not collect personally identifiable information, we generally cannot access, modify, or delete your personal information on a server. If you have questions about this Policy, please contact us at the email above.</p>
+  </section>
+  <section><h2>8. International Users</h2>
+    <p>The Game is distributed through the Apple App Store. When you use Apple services, Apple may process related information in accordance with its privacy policy.</p>
+  </section>
+  <section><h2>9. Changes to This Policy</h2>
+    <p>We may update this Privacy Policy from time to time. The updated version will be posted on this page with a revised Effective Date. We will provide appropriate notice of material changes.</p>
+  </section>
+  <section><h2>10. Contact Us</h2>
+    <p>If you have any questions about this Privacy Policy, please contact:<br><strong><a href="mailto:mohuanya@163.com">mohuanya@163.com</a></strong></p>
+  </section>
+  <footer>© 2026 Magic Duck Unlimited · Privacy Policy</footer>
+</main>
+</body>
+</html>
